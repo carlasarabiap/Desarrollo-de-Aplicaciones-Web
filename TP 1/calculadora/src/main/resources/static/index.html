@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <form method="post">
+        <table>
+            <tr>
+                <td>Número 1:</td>
+                <td><input type="number" name="num1" id="num1" placeholder="Número 1" required></td>
+            </tr>
+            <tr>
+                <td>Número 2:</td>
+                <td><input type="number" name="num2" id="num2" placeholder="Número 2" required></td>
+            </tr>
+            <tr>
+                <td>Operación</td>
+                <td>
+                    <select name="operacion" id="operacion">
+                        <option value="">Seleccione</option>
+                        <option value="sum">Sumar</option>
+                        <option value="res">Restar</option>
+                        <option value="mul">Multiplicar</option>
+                        <option value="div">Dividir</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset" value="Borrar datos">
+                </td>
+                <td>
+                    <input type="submit" value="Calcular">
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>Resultado</td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
